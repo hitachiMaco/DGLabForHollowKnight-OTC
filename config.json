@@ -1,0 +1,16 @@
+{
+    "example": [
+        { "pattern_intensity": 0, "frequency": 1000 },
+        { "pattern_intensity": 100, "frequency": 1000 },
+        { "pattern_intensity": 0, "frequency": 1000 },
+        { "pattern_intensity": 100, "frequency": 1000 }
+    ],
+    "example1": [
+        { "pattern_intensity": 0, "frequency": 200 },
+        { "pattern_intensity": 20, "frequency": 300 },
+        { "pattern_intensity": 40, "frequency": 400 },
+        { "pattern_intensity": 60, "frequency": 500 },
+        { "pattern_intensity": 80, "frequency": 600 },
+        { "pattern_intensity": 100, "frequency": 700 }
+    ]
+}
