@@ -1,5 +1,6 @@
 # DGLabForHollowKnight-OTC
 适配郊狼3.0的空洞骑士HollowKnight模组，使用OTC控制器
+
 视频教程马上到来！
 
 **本项目使用MIT协议开源，欢迎大家写出你喜欢的游戏的mod，上传分享哦**
@@ -8,10 +9,15 @@
 **我的仓库：https://github.com/hitachiMaco/DGLabForHollowKnight-OTC**
 
 #### 在此感谢：
-OTCgithub仓库：https://github.com/open-toys-controller/open-DGLAB-controller
+
+OTC控制器github仓库：https://github.com/open-toys-controller/open-DGLAB-controller
+
 HK-modding仓库：https://github.com/hk-modding/api
+
 空洞骑士mod教程：BV1mH4y1w7tC
+
 空洞骑士API：https://github.com/hk-modding/api
+
 API文档：https://radiance.synthagen.net/apidocs/_images/Getting-Started.html
 
 #### 非常感谢！
