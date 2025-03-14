@@ -28,7 +28,7 @@ API文档：https://radiance.synthagen.net/apidocs/_images/Getting-Started.html
 备注：若没有正常加载mod，或功能不生效，可以通过查看"C:\Users\${你的用户名}\AppData\LocalLow\Team Cherry\Hollow Knight\ModLog.txt" 的输出日志，以判断实际问题。
 
 ### 有一点编程基础，可以个性化设置触发条件、强度、时间等：
-1. 2. 步同上
+1. 1、2 步同上
 3. 下载visual studio 2022，按照视频教程完成配置。
 4. 下载我的github仓库中的全部.cs文件到一个文件夹下，使用visual studio打开，并按照视频配置。
 5. 个性化修改代码。
