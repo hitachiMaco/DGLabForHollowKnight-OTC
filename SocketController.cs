@@ -17,27 +17,30 @@ namespace HollowKnightMod
 
         public SocketController()
         {
-            DIY_patterns = LoadPatternsFromFile("config.json");
-        }
 
-        private Dictionary<string, List<Pattern>> LoadPatternsFromFile(string filePath)
-        {
-            try
+            DIY_patterns = new Dictionary<string, List<Pattern>>
             {
-                if (!File.Exists(filePath))
                 {
-                    Modding.Logger.LogError($"配置文件 {filePath} 不存在");
-                    return new Dictionary<string, List<Pattern>>();
+                    "example", new List<Pattern>
+                    {
+                        new Pattern { pattern_intensity = 0, frequency = 1000 },
+                        new Pattern { pattern_intensity = 100, frequency = 1000 },
+                        new Pattern { pattern_intensity = 0, frequency = 1000 },
+                        new Pattern { pattern_intensity = 100, frequency = 1000 }
+                    }
+                },
+                {
+                    "example1", new List<Pattern>
+                    {
+                        new Pattern { pattern_intensity = 0, frequency = 200 },
+                        new Pattern { pattern_intensity = 20, frequency = 300 },
+                        new Pattern { pattern_intensity = 40, frequency = 400 },
+                        new Pattern { pattern_intensity = 60, frequency = 500 },
+                        new Pattern { pattern_intensity = 80, frequency = 600 },
+                        new Pattern { pattern_intensity = 100, frequency = 700 }
+                    }
                 }
-
-                string json = File.ReadAllText(filePath);
-                return JsonConvert.DeserializeObject<Dictionary<string, List<Pattern>>>(json);
-            }
-            catch (Exception ex)
-            {
-                Modding.Logger.LogError($"加载模式失败: {ex.Message}");
-                return new Dictionary<string, List<Pattern>>();
-            }
+            };
         }
 
         public async Task SendPatternSafe(string patternName, int intensity, int ticks)
