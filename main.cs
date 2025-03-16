@@ -12,7 +12,7 @@ namespace HollowKnightMod
     {
         private readonly SemaphoreSlim _wsLock = new SemaphoreSlim(1, 1);
         private ClientWebSocket _webSocket;
-        private readonly Uri _serverUri = new Uri("ws://192.168.1.3:60536/1");
+        private readonly Uri _serverUri = new Uri("ws://192.168.1.3:60536/1");  //改为手机OTC控制器上写的ip
         private readonly SocketController _controller;
         private CancellationTokenSource _cts;
 
@@ -27,9 +27,9 @@ namespace HollowKnightMod
         public override void Initialize()
         {
             Log("Harry's Mod Load Successfully!");
-            ModHooks.AfterTakeDamageHook += AfterTakeDamage;
-            ModHooks.BeforePlayerDeadHook += BeforePlayerDead;
-            ModHooks.SlashHitHook += OnSlashHit;
+            ModHooks.AfterTakeDamageHook += AfterTakeDamage;    //受击
+            ModHooks.BeforePlayerDeadHook += BeforePlayerDead;  //死亡
+            ModHooks.SlashHitHook += OnSlashHit;                //攻击
             _ = ConnectWebSocketAsync();
         }
 
@@ -77,8 +77,8 @@ namespace HollowKnightMod
                 }
                 else if (damageAmount == 1)
                 {
-                    Task.Run(() => _controller.SendPatternSafe("example", 75, 10));
-                }
+                    Task.Run(() => _controller.SendPatternSafe("example", 75, 10));  //（模式名，百分比强度，持续时间）
+                }                                                                    // 10 = 1s
                 else if (damageAmount >= 2)
                 {
                     Task.Run(() => _controller.SendPatternSafe("example", 85, 16));

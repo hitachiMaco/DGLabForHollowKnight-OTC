@@ -20,6 +20,8 @@ namespace HollowKnightMod
 
             DIY_patterns = new Dictionary<string, List<Pattern>>
             {
+                //你可以在这里添加自定义波形，详情见OTC控制器的api说明
+                //若请求的波形名不存在，会默认使用经典波形
                 {
                     "example", new List<Pattern>
                     {
