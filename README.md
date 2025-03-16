@@ -24,7 +24,7 @@ API文档：https://radiance.synthagen.net/apidocs/_images/Getting-Started.html
 
 
 以下教程面对windows版本、steam版游戏。
-### 不想改动代码、个性化功能的：
+### （目前暂无）不想改动代码、个性化功能的：
 1. 手机、电脑连接同一局域网，手机下载OTC控制器，连接设备，打开娱乐模式。
 2. 下载hk-modding给出的.dll 文件，覆盖到\hollow_knight_Data\Managed 文件夹下
 3. 下载本mod的.dll文件，放入 \hollow_knight_Data\Managed\Mods\DGLab
