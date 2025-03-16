@@ -1,4 +1,4 @@
-![序列 01 00_00_14_39 Still001](https://github.com/user-attachments/assets/4b9e9d02-e017-4445-b759-cbf822a56447)# DGLabForHollowKnight-OTC
+# DGLabForHollowKnight-OTC
 适配郊狼3.0的空洞骑士HollowKnight模组，使用OTC控制器
 
 视频教程已在bilibili发布，bv号：BV1feQDYVEok
