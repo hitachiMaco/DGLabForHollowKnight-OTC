@@ -1,4 +1,4 @@
-# DGLabForHollowKnight-OTC
+![序列 01 00_00_14_39 Still001](https://github.com/user-attachments/assets/4b9e9d02-e017-4445-b759-cbf822a56447)# DGLabForHollowKnight-OTC
 适配郊狼3.0的空洞骑士HollowKnight模组，使用OTC控制器
 
 视频教程已在bilibili发布，bv号：BV1feQDYVEok
@@ -42,3 +42,10 @@ API文档：https://radiance.synthagen.net/apidocs/_images/Getting-Started.html
 4. 开始游戏。
 
 备注：若没有正常加载mod，或功能不生效，可以通过查看"C:\Users\${你的用户名}\AppData\LocalLow\Team Cherry\Hollow Knight\ModLog.txt" 的输出日志，以判断实际问题。
+
+### 效果展示
+
+![序列 01 00_00_14_39 Still001](https://github.com/user-attachments/assets/3d65941d-c419-4ce6-86cd-6e948445a701)
+攻击触发
+![序列 01 00_00_26_56 Still002](https://github.com/user-attachments/assets/ca5faa13-90a2-4889-954b-bfa07d9400bd)
+受击触发
